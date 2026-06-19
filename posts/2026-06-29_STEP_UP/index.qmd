@@ -1,0 +1,29 @@
+---
+title: "Talk and poster at STEP UP London Conference"
+authors:
+  - name: Carlos Cámara-Menoyo
+    orcid: 0000-0002-9378-0549
+    affiliation:
+      - id: warwick
+        name: University of Warwick
+  - name: Timothy Monteath
+    orcid: 0000-0003-2481-978
+    affiliation:
+      - ref: warwick
+
+image: https://step-up.ac.uk/assets/images/step-up.png
+date: "2026-06-14"
+categories: [dissemination]
+---
+
+On the 29th of June, we will be giving a lightning talk and a poster presentation at [STEP-UP London Conference 2026](https://step-up.ac.uk/events/step-up-2026/#the-2026-conference), the 7th regional community conference for **digital Research Technical Professionals (dRTPs) in London and the South East**, supported by [STEP-UP](https://step-up.ac.uk/), a UK-based research project funded under the UK [Engineering and Physical Sciences Research Council](https://www.ukri.org/councils/epsrc/) (EPSRC)’s 2023 [Strategic Technical Platforms call](https://www.ukri.org/opportunity/epsrc-strategic-technical-platform/). 
+
+## Abstract:
+
+Our research – funded by the UKRI's [DisCouRSE+ network](https://discourse-network.github.io/) - seeks to map and analyse the provision of digital research competencies (DRC) which are led by or involve dRTP’s across Higher Education institutions in the UK. The teaching of computational methods has spread across disciplines, spawning numerous pedagogical approaches and a wide variety of methods, software, products, and environments. However, the role of dRTP’s in the proliferation teaching DRC remains unclear. dRTP’s responsibilities are primarily focused on research and infrastructure and expectations around involvement in training and teaching vary widely across the sector. Furthermore, choices as to which approaches and delivery modes to adopt in teaching and training are often driven by trends, licensing constraints or trainer’s familiarity rather than pedagogical criteria or context suitability.\
+
+Our research, therefore, seeks to investigate what training and teaching is being delivered by dRTP’s? What skills and competencies are being taught? What pedagogical approaches are being taken? How does thisdiffer across audiences, infrastructures, and institutions? We will use this lightning talk (and the poster we are also proposing) to report on our preliminary findings from a survey we have been running and audit of curricula and training involving dRTP’s listed on university websites and to further develop conversations with the dRTP community over their involvement in education and training.
+
+## Slides
+
+To be added here after the session.

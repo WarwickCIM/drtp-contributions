@@ -1,0 +1,166 @@
+---
+title: "Mapping and evaluating dRTP’s contributions to computing skills'pedagogies"
+subtitle: "Preliminary results"
+location: "sasas"
+format: revealjs
+author: "Carlos Cámara-Menoyo | Timothy Monteath"
+theme: [default, ../../styles/warwick-slides.css, ../../styles/warwick-fonts.css]
+title-slide-attributes:
+  data-background-image: /media/poddar-group-of-institutions-ereEoYDIl20-unsplash.jpg
+  data-background-color: "#A499F4"
+  # data-background-size: contain
+  data-background-opacity: "0.3"
+bibliography: references.bib
+---
+
+#  {.center .smaller background-color="#51D7C1"}
+
+::::: columns
+::: {.column width="50%"}
+![](/media/carlos.png){fig-alt="Carlos Cámara" fig-align="center" width="250"}
+
+**Carlos Cámara-Menoyo**
+
+*Senior Research Software Engineer*, Centre for Interdisciplinary Methodologies (University of Warwick), [SSI Fellow](https://software.ac.uk/)
+
+[carlos.camara\@warwick.ac.uk](mailto:carlos.camara@warwick.ac.uk){.email}
+
+<i class="fa-brands fa-mastodon"></i> [\@ccamara.scholar.social](https://scholar.social/@ccamara)
+
+<i class="fa-brands fa-bluesky"></i> [\@ccamara.scholar.social.ap.brid.gy](https://bsky.app/profile/ccamara.scholar.social.ap.brid.gy)
+:::
+
+::: {.column width="50%"}
+![](/media/tim.png){fig-alt="Timothy Monteath" fig-align="center" width="250"}
+
+**Timothy Monteath**
+
+*Assistant Professor*, Centre for Interdisciplinary Methodologies (University of Warwick)
+
+[Timothy.monteath\@warwick.ac.uk](mailto:Timothy.monteath@warwick.ac.uk)
+
+{{< fa brands mastodon >}} [\@twm.mastodon.sdf.org](https://mastodon.sdf.org@twm)
+
+{{< fa brands bluesky >}} [\@twm.bsky.social](https://bsky.app/profile/twm.bsky.social)
+:::
+:::::
+
+::: notes
+Hello, we are Carlos Cámara and Tim Monteath, and today we are going to talk about something we are both passionate for: maps, and specifically about their relationship with how we see and shape the world.
+:::
+
+# The challenge: training DRCs {.smaller .center}
+
+::::: columns
+::: {.column width="60%"}
+We are seeing a computational turn in research, as seen in a
+
+- growing number of research that relies on **data** or **research software** [@crouch2013],
+
+- adoption of **computational methods** by fields that didn't traditionally use them (e.g. computational social sciences, digital humanities...)
+
+- growing importance of **OpenScience** and expectation to manage data and outputs following **FAIR principles**,
+
+- growing number of infrastructure and professionals needed for its delivery,
+
+- the advent of AI (adding a new level of complexity).
+
+This requires a broad set of skills -Digital Research Competencies- that need to be learnt and taught.
+:::
+
+::: {.column width="40%"}
+![[DIRECT Framework](https://directframework.com/) [@nenadic2026]](/media/DIRECT%20Framework_alpha.png)
+:::
+:::::
+
+# Our initial questions
+
+If training is needed, and RSEs are not doing it, who is filling this gap?
+
+![RSE International Survey [@HettrickRSESurveylongitudinal2026] (results from 2022 and UK only): https://rse-survey.soton.ac.uk/superset/dashboard/RSE_survey/](/media/RSE-survey_UK_2022_what-are-you-spending-your-time-on-2026-06-18T11-18-14.266Z.jpg)
+
+## 
+
+Something about licences
+
+Conversations with colleagues seemed to surface similar solutions (Azure)
+
+How much the trainig is influenced by pedagogical motivations or mo (e.g. licences).
+
+# Our research {.smaller}
+
+::::: columns
+::: {.column width="50%"}
+The research acknowledges and complements existing competency frameworks like DIRECT but examines the material conditions of training delivery instead on learning needs.
+
+- How are dRTPs engaging in the teaching of Digital Research Competencies?
+
+- What are the methodologies and technologies used to deliver the training? How are decisions on training delivery made?
+
+- How is the training influenced by matters such as type of professional, career stage, background, pedagogical approaches, trends, availability, licences or teachers’ beliefs?
+
+- Are there any approaches that are more frequently used for specific audiences or cases?
+:::
+
+::: {.column width="50%"}
+IF RSEs are not delivering this training, who is doing it?
+
+![RSE International Survey: https://rse-survey.soton.ac.uk/superset/dashboard/RSE_survey/](/media/RSE-survey_UK_2022_what-are-you-spending-your-time-on-2026-06-18T11-18-14.266Z.jpg)
+:::
+:::::
+
+::: notes
+The research acknowledges and complements existing competency frameworks like DIRECT but examines the material conditions of training delivery instead on learning needs.
+:::
+
+# Methodology
+
+## Survey {.smaller}
+
+::::: columns
+::: {.column width="50%"}
+**People**
+
+- Who are involved? What are their job titles?
+
+- How are they involved in the teaching?
+
+- Do they have any pedagogical background?
+
+- What are their beliefs in relation to tech and pedagogy?
+
+**Training and pedagogies**
+
+- What formats and delivery mode
+
+- What are the key factors influencing how the training is delivered?
+
+- Infrastructure needed
+
+- Challenges
+:::
+
+::: {.column width="50%"}
+QR code and link to the survey
+:::
+:::::
+
+## Systematic analysis
+
+## Interviews
+
+# Initial findings {background-image="https://www.netsuite.com/portal/assets/img/business-articles/accounting-software/social-work-in-progress.jpg" background-color="#000" background-opacity="0.8" background-position="right" background-size="contain"}
+
+Check the poster!
+
+# We need your help!
+
+- Fill in (and share) the survey
+
+- Reach out to us!
+
+- Volunteer for interviews
+
+# Thanks! {background-color="#A499F4"}
+
+## References

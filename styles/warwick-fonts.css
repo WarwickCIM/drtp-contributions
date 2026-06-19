@@ -1,0 +1,28 @@
+/*-- scss:defaults --*/
+@import url('https://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700;900&display=swap');
+
+// fonts
+$font-family-sans-serif: 'neue-haas-grotesk-text', 'Lato', serif !default;
+$presentation-font-size-root: 30px;
+
+// headings
+$presentation-heading-font: 'Neue Haas Grotesk Display Pro', 'Lato', serif !default;
+$presentation-heading-font-weight: 900;
+
+/*-- scss:rules --*/
+body { 
+  font-family: $font-family-sans-serif; 
+  font-size: $presentation-font-size-root;
+  font-weight: 200 !important;
+}
+
+
+h1, h2 {
+  font-family: $presentation-heading-font;
+  font-weight: $presentation-heading-font-weight;
+}
+
+h3 {
+  font-weight: 700;
+}

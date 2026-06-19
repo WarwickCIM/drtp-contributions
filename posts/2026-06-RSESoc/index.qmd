@@ -1,0 +1,39 @@
+---
+title: "How do RSEs contribute to the teaching of digital technical competencies?"
+authors:
+  - name: Carlos Cámara-Menoyo
+    orcid: 0000-0002-9378-0549
+    affiliation:
+      - id: warwick
+        name: University of Warwick
+  - name: Timothy Monteath
+    orcid: 0000-0003-2481-978
+    affiliation:
+      - ref: warwick
+date: "2026-06-12"
+categories: [dissemination]
+---
+
+![Photo by [Poddar Group of Institutions](https://unsplash.com/@poddarcollegejpr?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/teacher-guiding-students-on-computer-in-classroom-ereEoYDIl20?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)](/media/poddar-group-of-institutions-ereEoYDIl20-unsplash.jpg)
+
+The combination of domain knowledge, technical expertise and profound understanding of research makes RSEs a versatile and diverse profile that can contribute in many ways to make research better. Many RSEs are involved in the teaching of methods, technologies or skills (i.e, Digital Research Competencies) needed for research. In a context where scholarly disciplines are increasingly becoming more computational, combined with growing levels of AI adoption, training provision has become critical. As a result, today we have a vast offering of tools, platforms, formats, and approaches as well as specialised profiles for their delivery. And yet, pedagogical implications remain under-theorised.
+
+This is the gap we want to fill: “Mapping and evaluating dRTP’s contributions to computing skills pedagogies in HE”, a DisCouRSE Network+ funded project where we want to understand the material conditions of training delivery. Specifically, we want to answer questions such as:
+
+- How are digital Research Technical Professionals (dRTP)[^1] engaging in the teaching of Digital Research Competencies?
+
+- What are the methodologies and technologies used to deliver the training/teaching? Who makes the decisions on how training is delivered?
+
+- How is the teaching of Digital Research Competencies influenced by matters such as career stage, background, pedagogical approaches, trends, availability, licences or teachers’ beliefs?
+
+- Are there any approaches that are more frequently used for specific audiences or cases?
+
+[^1]: RSEs are one of the professions that are explicitly listed within the scope of this term, which refers to the wide range of professionals whose work supports, enables, or advances research through digital tools, data, infrastructure, or expertise. Refer to the funder's broad definition [here](https://discourse-network.github.io/who).
+
+Part of our methodology consists of **an anonymous [survey](https://warwick.co1.qualtrics.com/jfe/form/SV_b3LoVpAfmFETUt8?Q_CHL=social&Q_SocialSource=RSESOC) asking two sets of questions**: a first one **about the respondent** (role, career stage…) and a second one **about any training respondents have been involved with** (context, role and capacity, contents, technologies involved and use of AI). The survey is now open, and we are looking for participants willing to contribute to our research by spending 15-20 minutes of their time (depending on how many details they want to share).
+
+By participating in the survey, you will help us to better understand the role played by people, methodologies and infrastructure in the provision of digital research competencies (DRP) across higher‑education institutions. The findings will offer evidence‑based recommendations for policymakers, dRTPs and educators to enhance DRP curricula across HE, guiding when and how to involve specialist trainers and applying appropriate pedagogical approaches and tools for different contexts, which we hope will benefit the RSE community as a whole.
+
+::: callout-note
+This post was initially published at the [Research Software Engineering Society's blog](https://society-rse.org/how-do-rses-contribute-to-the-teaching-of-digital-technical-competencies/).
+:::

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>dRTP’s contributions to computing skills pedagogies</title>
+<link>https://your-website-url.example.com/</link>
+<atom:link href="https://your-website-url.example.com/index.xml" rel="self" type="application/rss+xml"/>
+<description>Mapping and evaluating dRTP’s contributions to computing skills pedagogies in HE</description>
+<generator>quarto-1.9.37</generator>
+<lastBuildDate>Sat, 13 Jun 2026 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>Talk and poster at STEP UP London Conference</title>
+  <link>https://your-website-url.example.com/posts/2026-06-29_STEP_UP/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>On the 29th of June, we will be giving a lightning talk and a poster presentation at <a href="https://step-up.ac.uk/events/step-up-2026/#the-2026-conference">STEP-UP London Conference 2026</a>, the 7th regional community conference for&nbsp;<strong>digital Research Technical Professionals (dRTPs) in London and the South East</strong>, supported by <a href="https://step-up.ac.uk/">STEP-UP</a>, a UK-based research project funded under the UK <a href="https://www.ukri.org/councils/epsrc/">Engineering and Physical Sciences Research Council</a> (EPSRC)’s 2023 <a href="https://www.ukri.org/opportunity/epsrc-strategic-technical-platform/">Strategic Technical Platforms call</a>.&nbsp;</p>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract:</h2>
+<p>Our research – funded by the UKRI’s <a href="https://discourse-network.github.io/">DisCouRSE+ network</a> - seeks to map and analyse the provision of digital research competencies (DRC) which are led by or involve dRTP’s across Higher Education institutions in the UK. The teaching of computational methods has spread across disciplines, spawning numerous pedagogical approaches and a wide variety of methods, software, products, and environments. However, the role of dRTP’s in the proliferation teaching DRC remains unclear. dRTP’s responsibilities are primarily focused on research and infrastructure and expectations around involvement in training and teaching vary widely across the sector. Furthermore, choices as to which approaches and delivery modes to adopt in teaching and training are often driven by trends, licensing constraints or trainer’s familiarity rather than pedagogical criteria or context suitability.<br>
+</p>
+<p>Our research, therefore, seeks to investigate what training and teaching is being delivered by dRTP’s? What skills and competencies are being taught? What pedagogical approaches are being taken? How does thisdiffer across audiences, infrastructures, and institutions? We will use this lightning talk (and the poster we are also proposing) to report on our preliminary findings from a survey we have been running and audit of curricula and training involving dRTP’s listed on university websites and to further develop conversations with the dRTP community over their involvement in education and training.</p>
+</section>
+<section id="slides" class="level2">
+<h2 class="anchored" data-anchor-id="slides">Slides</h2>
+<p>To be added here after the session.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>dissemination</category>
+  <guid>https://your-website-url.example.com/posts/2026-06-29_STEP_UP/</guid>
+  <pubDate>Sat, 13 Jun 2026 23:00:00 GMT</pubDate>
+  <media:content url="https://step-up.ac.uk/assets/images/step-up.png" medium="image" type="image/png"/>
+</item>
+<item>
+  <title>How do RSEs contribute to the teaching of digital technical competencies?</title>
+  <link>https://your-website-url.example.com/posts/2026-06-RSESoc/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://your-website-url.example.com/media/poddar-group-of-institutions-ereEoYDIl20-unsplash.jpg" class="img-fluid figure-img"></p>
+<figcaption>Photo by <a href="https://unsplash.com/@poddarcollegejpr?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Poddar Group of Institutions</a> on <a href="https://unsplash.com/photos/teacher-guiding-students-on-computer-in-classroom-ereEoYDIl20?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></figcaption>
+</figure>
+</div>
+<p>The combination of domain knowledge, technical expertise and profound understanding of research makes RSEs a versatile and diverse profile that can contribute in many ways to make research better. Many RSEs are involved in the teaching of methods, technologies or skills (i.e, Digital Research Competencies) needed for research. In a context where scholarly disciplines are increasingly becoming more computational, combined with growing levels of AI adoption, training provision has become critical. As a result, today we have a vast offering of tools, platforms, formats, and approaches as well as specialised profiles for their delivery. And yet, pedagogical implications remain under-theorised.</p>
+<p>This is the gap we want to fill: “Mapping and evaluating dRTP’s contributions to computing skills pedagogies in HE”, a DisCouRSE Network+ funded project where we want to understand the material conditions of training delivery. Specifically, we want to answer questions such as:</p>
+<ul>
+<li><p>How are digital Research Technical Professionals (dRTP)<sup>1</sup> engaging in the teaching of Digital Research Competencies?</p></li>
+<li><p>What are the methodologies and technologies used to deliver the training/teaching? Who makes the decisions on how training is delivered?</p></li>
+<li><p>How is the teaching of Digital Research Competencies influenced by matters such as career stage, background, pedagogical approaches, trends, availability, licences or teachers’ beliefs?</p></li>
+<li><p>Are there any approaches that are more frequently used for specific audiences or cases?</p></li>
+</ul>
+<p>Part of our methodology consists of <strong>an anonymous <a href="https://warwick.co1.qualtrics.com/jfe/form/SV_b3LoVpAfmFETUt8?Q_CHL=social&amp;Q_SocialSource=RSESOC">survey</a> asking two sets of questions</strong>: a first one <strong>about the respondent</strong> (role, career stage…) and a second one <strong>about any training respondents have been involved with</strong> (context, role and capacity, contents, technologies involved and use of AI). The survey is now open, and we are looking for participants willing to contribute to our research by spending 15-20 minutes of their time (depending on how many details they want to share).</p>
+<p>By participating in the survey, you will help us to better understand the role played by people, methodologies and infrastructure in the provision of digital research competencies (DRP) across higher‑education institutions. The findings will offer evidence‑based recommendations for policymakers, dRTPs and educators to enhance DRP curricula across HE, guiding when and how to involve specialist trainers and applying appropriate pedagogical approaches and tools for different contexts, which we hope will benefit the RSE community as a whole.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This post was initially published at the <a href="https://society-rse.org/how-do-rses-contribute-to-the-teaching-of-digital-technical-competencies/">Research Software Engineering Society’s blog</a>.</p>
+</div>
+</div>
+
+
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>RSEs are one of the professions that are explicitly listed within the scope of this term, which refers to the wide range of professionals whose work supports, enables, or advances research through digital tools, data, infrastructure, or expertise. Refer to the funder’s broad definition <a href="https://discourse-network.github.io/who">here</a>.↩︎</p></li>
+</ol>
+</section></div> ]]></description>
+  <category>dissemination</category>
+  <guid>https://your-website-url.example.com/posts/2026-06-RSESoc/</guid>
+  <pubDate>Thu, 11 Jun 2026 23:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

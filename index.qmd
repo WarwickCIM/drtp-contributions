@@ -1,0 +1,15 @@
+---
+title: "Mapping and evaluating dRTP’s contributions to computing skills pedagogies in HE"
+listing:
+  contents: posts
+  feed: true
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
+---
+
+Some text here
