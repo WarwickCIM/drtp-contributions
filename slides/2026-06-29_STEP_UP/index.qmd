@@ -3,8 +3,9 @@ title: "Mapping and evaluating dRTP’s contributions to computing skills'pedago
 subtitle: "Preliminary results"
 location: "sasas"
 format: revealjs
+logo: /media/warwick-logo.svg
 author: "Carlos Cámara-Menoyo | Timothy Monteath"
-theme: [default, ../../styles/warwick-slides.css, ../../styles/warwick-fonts.css]
+theme: [default, ../../styles/warwick-slides.scss, ../../styles/warwick-fonts.scss]
 title-slide-attributes:
   data-background-image: /media/poddar-group-of-institutions-ereEoYDIl20-unsplash.jpg
   data-background-color: "#A499F4"
@@ -19,7 +20,7 @@ bibliography: references.bib
 ::: {.column width="50%"}
 ![](/media/carlos.png){fig-alt="Carlos Cámara" fig-align="center" width="250"}
 
-**Carlos Cámara-Menoyo**
+Dr. **Carlos Cámara-Menoyo**
 
 *Senior Research Software Engineer*, Centre for Interdisciplinary Methodologies (University of Warwick), [SSI Fellow](https://software.ac.uk/)
 
@@ -33,7 +34,7 @@ bibliography: references.bib
 ::: {.column width="50%"}
 ![](/media/tim.png){fig-alt="Timothy Monteath" fig-align="center" width="250"}
 
-**Timothy Monteath**
+Dr.**Timothy Monteath**
 
 *Assistant Professor*, Centre for Interdisciplinary Methodologies (University of Warwick)
 
@@ -55,15 +56,15 @@ Hello, we are Carlos Cámara and Tim Monteath, and today we are going to talk ab
 ::: {.column width="60%"}
 We are seeing a computational turn in research, as seen in a
 
-- growing number of research that relies on **data** or **research software** [@crouch2013],
+-   growing number of research that relies on **data** or **research software** [@crouch2013],
 
-- adoption of **computational methods** by fields that didn't traditionally use them (e.g. computational social sciences, digital humanities...)
+-   adoption of **computational methods** by fields that didn't traditionally use them (e.g. computational social sciences, digital humanities...)
 
-- growing importance of **OpenScience** and expectation to manage data and outputs following **FAIR principles**,
+-   growing importance of **OpenScience** and expectation to manage data and outputs following **FAIR principles**,
 
-- growing number of infrastructure and professionals needed for its delivery,
+-   growing number of infrastructure and professionals needed for its delivery,
 
-- the advent of AI (adding a new level of complexity).
+-   the advent of AI (adding a new level of complexity).
 
 This requires a broad set of skills -Digital Research Competencies- that need to be learnt and taught.
 :::
@@ -73,39 +74,41 @@ This requires a broad set of skills -Digital Research Competencies- that need to
 :::
 :::::
 
-# Our initial questions
-
-If training is needed, and RSEs are not doing it, who is filling this gap?
-
-![RSE International Survey [@HettrickRSESurveylongitudinal2026] (results from 2022 and UK only): https://rse-survey.soton.ac.uk/superset/dashboard/RSE_survey/](/media/RSE-survey_UK_2022_what-are-you-spending-your-time-on-2026-06-18T11-18-14.266Z.jpg)
-
-## 
-
-Something about licences
-
-Conversations with colleagues seemed to surface similar solutions (Azure)
-
-How much the trainig is influenced by pedagogical motivations or mo (e.g. licences).
-
-# Our research {.smaller}
+# So we wondered...
 
 ::::: columns
-::: {.column width="50%"}
-The research acknowledges and complements existing competency frameworks like DIRECT but examines the material conditions of training delivery instead on learning needs.
+::: {.column width="60%"}
+-   If training is needed, and RSEs are not doing it, [who are the professionals filling this gap]{.highlight-text}?
 
-- How are dRTPs engaging in the teaching of Digital Research Competencies?
+-   If multiple professionals are doing it: [does the]{.highlight-text} [training differ based on their backgrounds?]{.highlight-text}
 
-- What are the methodologies and technologies used to deliver the training? How are decisions on training delivery made?
-
-- How is the training influenced by matters such as type of professional, career stage, background, pedagogical approaches, trends, availability, licences or teachers’ beliefs?
-
-- Are there any approaches that are more frequently used for specific audiences or cases?
+-   And more broadly: how are DRC being delivered and what are their [key defining]{.highlight-text} [factors]{.highlight-text}?
 :::
 
-::: {.column width="50%"}
-IF RSEs are not delivering this training, who is doing it?
+::: {.column width="40%"}
+![[RSE International Survey](https://rse-survey.soton.ac.uk/superset/dashboard/RSE_survey/) [@HettrickRSESurveylongitudinal2026] (results from 2022 and UK only)](/media/RSE-survey_UK_2022_what-are-you-spending-your-time-on-2026-06-18T11-18-14.266Z.jpg)
+:::
+:::::
 
-![RSE International Survey: https://rse-survey.soton.ac.uk/superset/dashboard/RSE_survey/](/media/RSE-survey_UK_2022_what-are-you-spending-your-time-on-2026-06-18T11-18-14.266Z.jpg)
+# Our research {.smaller background-color="#DAD6CA"}
+
+***"Mapping and evaluating dRTP’s contributions to computing skills and pedagogies in Higher Education"*** **is a project funded by the UKRI's [DisCouRSE Network+](https://discourse-network.github.io/) and aims to map and analyse the provision of digital research competencies (DRC) which are led by or involve dRTP’s across Higher Education institutions in the UK.**
+
+::::: {.columns .smaller}
+::: {.column width="70%"}
+The research acknowledges and complements existing competency frameworks like DIRECT but examines the material conditions of training delivery instead on learning needs.
+
+-   How are dRTPs engaging in the teaching of Digital Research Competencies?
+
+-   What are the methodologies and technologies used to deliver the training? How are decisions on training delivery made?
+
+-   How is the training influenced by matters such as type of professional, career stage, background, pedagogical approaches, trends, availability, licences or teachers’ beliefs?
+
+-   Are there any approaches that are more frequently used for specific audiences or cases?
+:::
+
+::: {.column width="30%"}
+![](/media/DisCouRSE-Logo-Light.svg){width="400"} [This work was supported by the [DisCouRSE Network+](https://discourse-network.github.io/), which received funding through the UKRI Digital Research Infrastructure Programme]{.caption}
 :::
 :::::
 
@@ -118,48 +121,54 @@ The research acknowledges and complements existing competency frameworks like DI
 ## Survey {.smaller}
 
 ::::: columns
-::: {.column width="50%"}
+::: {.column width="70%"}
 **People**
 
-- Who are involved? What are their job titles?
+-   Who are involved? What are their job titles?
 
-- How are they involved in the teaching?
+-   How are they involved in the teaching?
 
-- Do they have any pedagogical background?
+-   Do they have any [pedagogical background]{.highlight-text}?
 
-- What are their beliefs in relation to tech and pedagogy?
+-   What are their [beliefs]{.highlight-text} in relation to tech and pedagogy? *(e.g. stance as a teacher, importance of opensource, AI, licences...)*
 
 **Training and pedagogies**
 
-- What formats and delivery mode
+-   What is being taught?
 
-- What are the key factors influencing how the training is delivered?
+-   What [formats]{.highlight-text} and [delivery mode]{.highlight-text} are used?
 
-- Infrastructure needed
+-   What are the [key factors]{.highlight-text} influencing how the training is delivered?
 
-- Challenges
+-   Infrastructure needed
+
+-   Challenges
 :::
 
-::: {.column width="50%"}
-QR code and link to the survey
+::: {.column width="30%"}
+![Link to the survey: <https://tinyurl.com/DRTP-training-survey>](media/qualtrics-qrcode.png)
 :::
 :::::
 
-## Systematic analysis
+::: {.callout-warning appearance="simple"}
+## Warning
 
-## Interviews
+At the time of writing, we have received 41 responses, covering 34 trainings. We need more responses!
+:::
 
-# Initial findings {background-image="https://www.netsuite.com/portal/assets/img/business-articles/accounting-software/social-work-in-progress.jpg" background-color="#000" background-opacity="0.8" background-position="right" background-size="contain"}
+## Systematic analysis + Interviews {.center}
+
+# What next?
 
 Check the poster!
 
-# We need your help!
+# We need your help! {background-color="#F1977F"}
 
-- Fill in (and share) the survey
+-   Fill in (and share) the survey
 
-- Reach out to us!
+-   Reach out to us!
 
-- Volunteer for interviews
+-   Volunteer for interviews
 
 # Thanks! {background-color="#A499F4"}
 
