@@ -160,7 +160,12 @@ At the time of writing, we have received 41 responses, covering 34 trainings. We
 
 # What next?
 
-Check the poster!
+Open repository using FAIR principles, containing:
+
+-   datasets
+-   reports
+
+Inform decision-making processes about designing and delivering training
 
 # We need your help! {background-color="#F1977F"}
 
