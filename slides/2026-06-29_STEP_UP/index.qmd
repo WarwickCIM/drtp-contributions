@@ -20,7 +20,7 @@ bibliography: references.bib
 ::: {.column width="50%"}
 ![](/media/carlos.png){fig-alt="Carlos Cámara" fig-align="center" width="250"}
 
-Dr. **Carlos Cámara-Menoyo**
+Dr. **Carlos Cámara-Menoyo** (PI)
 
 *Senior Research Software Engineer*, Centre for Interdisciplinary Methodologies (University of Warwick), [SSI Fellow](https://software.ac.uk/)
 
@@ -34,7 +34,7 @@ Dr. **Carlos Cámara-Menoyo**
 ::: {.column width="50%"}
 ![](/media/tim.png){fig-alt="Timothy Monteath" fig-align="center" width="250"}
 
-Dr.**Timothy Monteath**
+Dr.**Timothy Monteath** (Co-I)
 
 *Assistant Professor*, Centre for Interdisciplinary Methodologies (University of Warwick)
 
