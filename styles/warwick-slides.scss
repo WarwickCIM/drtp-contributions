@@ -1,17 +1,15 @@
 /*-- scss:defaults --*/
 // Warwick colors:
-$w_aubergine: #552D62;
 $w_grey: #393A3B;
-$w_ruby_red: #9A1310;
-$w_sky_blue: #00407A;
 $w_black: #0C0C0C;
 $w_lavender: #A499F4;
 $w_purple: #3E0974;
 $w_green: #51D7C1;
+$w_coral: #F1977F;
 
 
 
-// Reveal colors:
+// Reveal colors
 $body-bg: white;
 $body-color: $w_black;
 $link-color: $w_lavender;
@@ -44,13 +42,18 @@ $link-color: $w_lavender;
   }
 }
 
+.caption {
+  font-size: 0.7em;
+  font-style: italic;
+}
 
 .highlight-text{
   position:relative;
 }
 .highlight-text:before{
   content:"";
-  background-color:#ff6db7;
+  background-color: rgba($link-color, .3);
+  //background-color:#ff6db7;
   width:100%;
   height:1em;
   position:absolute;
