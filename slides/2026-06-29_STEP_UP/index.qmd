@@ -114,9 +114,9 @@ For example, after seeing the RSE international Survey, and how training was tan
 
 ::::: {.columns .smaller}
 ::: {.column width="70%"}
-The research acknowledges and complements existing competency frameworks like DIRECT but examines the material conditions of training delivery instead on learning needs.
+The research acknowledges and complements existing competency frameworks like DIRECT but [examines the material conditions of training delivery]{.highlight-text} instead of learning needs.
 
-Research questions include:
+**Research questions include:**
 
 -   How are dRTPs engaging in the teaching of Digital Research Competencies?
 
