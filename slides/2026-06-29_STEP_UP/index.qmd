@@ -140,7 +140,7 @@ The research acknowledges and complements existing competency frameworks like DI
 :::
 
 # Methodology
-qu
+
 ## Survey {.smaller}
 
 ::::: columns
