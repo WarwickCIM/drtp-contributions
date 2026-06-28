@@ -173,10 +173,12 @@ The research acknowledges and complements existing competency frameworks like DI
 :::
 :::::
 
+::: {.fragment}
 ::: {.callout-warning appearance="simple"}
 ## Warning
 
 At the time of writing, we have received 41 responses, covering 34 trainings. We need more responses!
+:::
 :::
 
 ## Systematic analysis + Interviews {.center}
