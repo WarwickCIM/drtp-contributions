@@ -140,7 +140,7 @@ The research acknowledges and complements existing competency frameworks like DI
 :::
 
 # Methodology
-
+qu
 ## Survey {.smaller}
 
 ::::: columns
@@ -197,6 +197,10 @@ Inform decision-making processes about designing and delivering training
 -   Volunteer for interviews
 
 -   Reach out to us!
+
+::: notes
+
+:::
 
 # Thanks! {background-color="#A499F4"}
 
