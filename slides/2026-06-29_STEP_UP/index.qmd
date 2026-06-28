@@ -47,14 +47,16 @@ Dr.**Timothy Monteath** (Co-I)
 :::::
 
 ::: notes
-Hello, we are Carlos Cámara and Tim Monteath, and today we are going to talk about something we are both passionate for: maps, and specifically about their relationship with how we see and shape the world.
+Hello, my name is Carlos Cámara, and I'll be presenting the work done with my colleague Tim Monteath. We both work at the Centre for Interdisciplinary Methodologies at the University of Warwick, me as a Senior RSE and Tim as an Assistant Professor.
 :::
 
 # The challenge: training DRCs {.smaller .center}
 
-::::: columns
-::: {.column width="60%"}
-We are seeing a computational turn in research, as seen in a
+:::::: columns
+:::: {.column width="60%"}
+
+We are seeing a **computational turn in research**, as seen in a
+
 
 -   growing number of research that relies on **data** or **research software** [@crouch2013],
 
@@ -66,13 +68,23 @@ We are seeing a computational turn in research, as seen in a
 
 -   the advent of AI (adding a new level of complexity).
 
-This requires a broad set of skills -Digital Research Competencies- that need to be learnt and taught.
-:::
+This **requires a broad set of skills -[Digital Research Competencies]{.highlight-text} [(DRC)]{.highlight-text}-** that need to be [learnt]{.highlight-text} and [taught]{.highlight-text}.
+::::
 
 ::: {.column width="40%"}
 ![[DIRECT Framework](https://directframework.com/) [@nenadic2026]](/media/DIRECT%20Framework_alpha.png)
 :::
-:::::
+::::::
+
+::: notes
+
+Research is becoming increasingly computational, as seen in
+
+This requires a broad set skills -Digital Research Competencies- that need to be learnt and taught.
+
+DIRECT framework acknowledges the importance and diversity of training and Digital Research Competencies, but it does not explain some of the questions that we were having...
+
+:::
 
 # So we wondered...
 
@@ -90,13 +102,21 @@ This requires a broad set of skills -Digital Research Competencies- that need to
 :::
 :::::
 
+::: notes
+
+For example, after seeing the RSE international Survey, and how training was tangential to RSEs, we wondered...
+
+:::
+
 # Our research {.smaller background-color="#DAD6CA"}
 
-***"Mapping and evaluating dRTP’s contributions to computing skills and pedagogies in Higher Education"*** **is a project funded by the UKRI's [DisCouRSE Network+](https://discourse-network.github.io/) and aims to map and analyse the provision of digital research competencies (DRC) which are led by or involve dRTP’s across Higher Education institutions in the UK.**
+***"Mapping and evaluating dRTP’s contributions to computing skills and pedagogies in Higher Education"*** **is a project funded by the UKRI's [DisCouRSE Network+](https://discourse-network.github.io/) and [aims to map and analyse the provision of digital research]{.highlight-text} [competencies (DRC)]{.highlight-text} which are led by or involve dRTP’s across Higher Education institutions in the UK.**
 
 ::::: {.columns .smaller}
 ::: {.column width="70%"}
 The research acknowledges and complements existing competency frameworks like DIRECT but examines the material conditions of training delivery instead on learning needs.
+
+Research questions include:
 
 -   How are dRTPs engaging in the teaching of Digital Research Competencies?
 
@@ -113,6 +133,9 @@ The research acknowledges and complements existing competency frameworks like DI
 :::::
 
 ::: notes
+
+
+
 The research acknowledges and complements existing competency frameworks like DIRECT but examines the material conditions of training delivery instead on learning needs.
 :::
 
@@ -169,11 +192,11 @@ Inform decision-making processes about designing and delivering training
 
 # We need your help! {background-color="#F1977F"}
 
--   Fill in (and share) the survey
-
--   Reach out to us!
+-   Fill in (and share) the survey (we need more responses!)
 
 -   Volunteer for interviews
+
+-   Reach out to us!
 
 # Thanks! {background-color="#A499F4"}
 
