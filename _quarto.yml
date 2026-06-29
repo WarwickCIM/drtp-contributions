@@ -17,7 +17,7 @@ format:
     theme:
       - cosmo
       - brand
-    css: styles.css
+    css: styles/styles.css
 
 editor: visual
 
