@@ -1,0 +1,715 @@
+---
+title: "Lessons from Mapping and evaluating dRTP’s contributions to computing skills and pedagogies in HE"
+subtitle: "Preliminary results"
+format: revealjs
+logo: /media/warwick-logo.svg
+author: 
+  - name: "Carlos Cámara-Menoyo | Timothy Monteath"
+    affiliation: Centre for Interdisciplinary Methodologies (University of Warwick)
+institute: "RSECon 2026 | Sheffield, 10th September 2026"
+theme: [default, ../../styles/warwick-slides.scss, ../../styles/warwick-fonts.scss]
+title-slide-attributes:
+  data-background-image: media/RSE-25-0064.jpg
+  data-background-color: "#A499F4"
+  # data-background-size: contain
+  data-background-opacity: "0.3"
+bibliography: references.bib
+---
+
+#  {.center .smaller background-color="#51D7C1"}
+
+::::: columns
+::: {.column width="50%"}
+![](/media/carlos.png){fig-alt="Carlos Cámara" fig-align="center" width="250"}
+
+Dr. **Carlos Cámara-Menoyo** (PI)
+
+*Principal Research Software Engineer*, Centre for Interdisciplinary Methodologies (University of Warwick), [SSI Fellow](https://software.ac.uk/)
+
+[carlos.camara\@warwick.ac.uk](mailto:carlos.camara@warwick.ac.uk){.email}
+
+<i class="fa-brands fa-mastodon"></i> [\@ccamara.scholar.social](https://scholar.social/@ccamara)
+
+<i class="fa-brands fa-bluesky"></i> [\@ccamara.scholar.social.ap.brid.gy](https://bsky.app/profile/ccamara.scholar.social.ap.brid.gy)
+:::
+
+::: {.column width="50%"}
+![](/media/tim.png){fig-alt="Timothy Monteath" fig-align="center" width="250"}
+
+Dr.**Timothy Monteath** (Co-I)
+
+*Assistant Professor*, Centre for Interdisciplinary Methodologies (University of Warwick)
+
+[Timothy.monteath\@warwick.ac.uk](mailto:Timothy.monteath@warwick.ac.uk)
+
+{{< fa brands mastodon >}} [\@twm.mastodon.sdf.org](https://mastodon.sdf.org@twm)
+
+{{< fa brands bluesky >}} [\@twm.bsky.social](https://bsky.app/profile/twm.bsky.social)
+:::
+:::::
+
+::: notes
+Hello, my name is Carlos Cámara, and I'll be presenting the work done with my colleague Tim Monteath. We both work at the Centre for Interdisciplinary Methodologies at the University of Warwick, me as a Principal RSE and Tim as an Assistant Professor.
+:::
+
+# The challenge: training DRCs {.smaller .center}
+
+::::: columns
+::: {.column width="60%"}
+We are seeing a **computational turn in research**, as seen in a
+
+- growing number of research that relies on **data** or **research software** [@crouch2013],
+
+- adoption of **computational methods** by fields that didn't traditionally use them (e.g. computational social sciences, digital humanities...)
+
+- growing importance of **OpenScience** and expectation to manage data and outputs following **FAIR principles**,
+
+- growing number of infrastructure and professionals needed for its delivery,
+
+- the advent of AI (adding a new level of complexity).
+
+This **requires a broad set of skills -[Digital Research Competencies(DRC)]{.highlight-text}-** that need to be [learnt]{.highlight-text} and [taught]{.highlight-text}.
+:::
+
+::: {.column width="40%"}
+![[DIRECT Framework](https://directframework.com/) [@nenadic2026]](/media/DIRECT%20Framework_alpha.png)
+:::
+:::::
+
+::: notes
+Research is becoming increasingly computational, as seen in
+
+This requires a broad set skills -Digital Research Competencies- that need to be learnt and taught.
+
+DIRECT framework acknowledges the importance and diversity of training and Digital Research Competencies, but it does not explain some of the questions that we were having...
+:::
+
+# So we wondered...
+
+::::: columns
+::: {.column width="60%"}
+- If training is needed, and RSEs are not doing it, [who are the professionals filling this gap]{.highlight-text}?
+
+- If multiple professionals are doing it: [does the]{.highlight-text} [training differ based on their backgrounds?]{.highlight-text}
+
+- And more broadly: how are DRC being delivered and what are their [key defining]{.highlight-text} [factors]{.highlight-text}?
+:::
+
+::: {.column width="40%"}
+![[RSE International Survey](https://rse-survey.soton.ac.uk/superset/dashboard/RSE_survey/) [@HettrickRSESurveylongitudinal2026] (results from 2022 and UK only)](/media/RSE-survey_UK_2022_what-are-you-spending-your-time-on-2026-06-18T11-18-14.266Z.jpg)
+:::
+:::::
+
+::: notes
+For example, after seeing the RSE international Survey, and how training was tangential to RSEs, we wondered...
+:::
+
+# Our research {.smaller background-color="#DAD6CA"}
+
+***"Mapping and evaluating dRTP’s contributions to computing skills and pedagogies in Higher Education"*** **is a project funded by the UKRI's [DisCouRSE Network+](https://discourse-network.github.io/) and [aims to map and analyse the provision of digital researchcompetencies (DRC)]{.highlight-text} which are led by or involve dRTP’s across Higher Education institutions in the UK.**
+
+::::: {.columns .smaller}
+::: {.column width="70%"}
+The research acknowledges and complements existing competency frameworks like DIRECT but [examines the material conditions of training delivery]{.highlight-text} instead of learning needs.
+
+**Research questions include:**
+
+- How are dRTPs engaging in the teaching of Digital Research Competencies?
+
+- What are the methodologies and technologies used to deliver the training? How are decisions on training delivery made?
+
+- How is the training influenced by matters such as type of professional, career stage, background, pedagogical approaches, trends, availability, licences or teachers’ beliefs?
+
+- Are there any approaches that are more frequently used for specific audiences or cases?
+:::
+
+::: {.column width="30%"}
+![](/media/DisCouRSE-Logo-Light.svg){width="400"} [This work was supported by the [DisCouRSE Network+](https://discourse-network.github.io/), which received funding through the UKRI Digital Research Infrastructure Programme]{.caption}
+:::
+:::::
+
+::: notes
+The research acknowledges and complements existing competency frameworks like DIRECT but examines the material conditions of training delivery instead on learning needs.
+:::
+
+# Methodology
+
+## Survey {.smaller}
+
+::::: columns
+::: {.column width="70%"}
+**People**
+
+- Who are involved? What are their job titles?
+
+- How are they involved in the teaching?
+
+- Do they have any [pedagogical background]{.highlight-text}?
+
+- What are their [beliefs]{.highlight-text} in relation to tech and pedagogy? *(e.g. stance as a teacher, importance of opensource, AI, licences...)*
+
+**Training and pedagogies**
+
+- What is being taught?
+
+- What [formats]{.highlight-text} and [delivery mode]{.highlight-text} are used?
+
+- What are the [key factors]{.highlight-text} influencing how the training is delivered?
+
+- Infrastructure needed
+
+- Challenges
+:::
+
+::: {.column width="30%"}
+![Link to the survey: <https://tinyurl.com/DRTP-training-survey>](media/qualtrics-qrcode.png)
+
+EXPLAIN WHERE THE SURVEY WAS DISTRIBUTED TO
+:::
+:::::
+
+:::: fragment
+::: {.callout-warning appearance="simple"}
+## Warning
+
+At the time of writing, we have received 41 responses, covering 34 trainings. We need more responses!
+:::
+::::
+
+## Systematic analysis + Interviews {.center}
+
+# Results
+
+```{r setup}
+library(dplyr)
+library(ggplot2)
+library(purrr)
+library(forcats)
+library(RColorBrewer)
+library(scales)
+library(stringr)
+library(tidyr)
+library(treemapify)
+library(knitr)
+
+
+fix_research_typo <- function(x) {
+  if (is.na(x)) return(x)
+  
+  words <- str_extract_all(x, "\\b\\w+\\b")[[1]]
+  
+  for (w in words) {
+    if (!is.na(w) && nchar(w) >= 6 && nchar(w) <= 9) {
+      dist <- adist(tolower(w), "research")[1, 1]
+      if (!is.na(dist) && dist > 0 && dist <= 2) {
+        repl <- if (str_detect(w, "^[A-Z]")) "Research" else "research"
+        x <- str_replace(x, fixed(w), repl)
+      }
+    }
+  }
+  x
+}
+
+
+df_responses_raw <- read.csv("data/local.drtp_contribs_survey_respondents.csv")
+
+
+df_responses <- df_responses_raw |> 
+  #convert to dates
+  mutate(
+    start_date = as.Date(start_date),
+    end_date = as.Date(end_date),
+  ) |> 
+  # Coalesces job_title
+  mutate(
+    job_title = map_chr(job_title, fix_research_typo),
+    job_title = str_remove(job_title, "\\(RSE\\)"),
+    job_title = str_trim(job_title),
+    job_title = str_replace(job_title, "RSE", "Research Software Engineer"),
+    job_title = case_when(
+      # str_detect(str_trim(job_title), "^RSE$") ~ "Research Software Engineer",
+      str_detect(tolower(str_trim(job_title)), "^research software engineer$") ~ "Research Software Engineer",
+      # str_detect(job_title, "Senior RSE") ~ "Senior Research Software Engineer",
+      # str_detect(job_title, "Principal RSE") ~ "Principal Research Software Engineer",
+      str_detect(job_title, "associate professor") ~ "Asociate Professor",
+      str_detect(job_title, "Research Data$") ~ "Research Data Steward",
+      .default = job_title
+    ),
+    job_title = as.factor(job_title),
+    job_title = fct_infreq(job_title)
+  ) |> 
+  mutate(
+    job_category = case_when(
+      str_detect(job_title, "Research Software Engineer") ~ "RSE",
+      str_detect(job_title, "Data Steward") ~ "Data Steward",
+      str_detect(job_title, "Community") ~ "Community Manager",
+      str_detect(job_title, "Professor") ~ "Academic",
+      .default = "Other"
+    ),
+    job_category = fct_infreq(as.factor(job_category))
+  ) |> 
+  # Reorder factors
+  mutate(
+    years_drtp = fct_relevel(
+      as.factor(years_drtp), 
+      "Never",
+      "less than a year",
+      "1-5 years",
+      "5-9 years"
+    )
+  ) |> 
+  # Filtering answers that are basically empty
+  filter(progress > 50) |> 
+  filter(if_any(10:-1, complete.cases))
+
+df_responses_tmp <- df_responses |> 
+  select(response_id, job_title, pedagogy_training)
+
+df_trainings <- read.csv("data/local.drtp_contribs_survey_trainings.csv") |> 
+  rename(
+    training_audience = training_audience__selected_choice
+  ) |> 
+  mutate(
+    training_direct_framework_mapping_raw = training_direct_framework_mapping,
+    training_direct_framework_mapping = training_direct_framework_mapping |> 
+    # Information and data technologies
+    str_replace_all(fixed("Data Science: Application of analytical, statistical or machine learning techniques to extract insight and value from complex or large datasets (big data)"), "Data Science") |> 
+    str_replace_all(fixed("Data Management: Understanding and implementation of practices for data management, quality, accessibility, stewardship and compliance across data lifecycle"), "Data Management") |> 
+    # Software engineering and development 
+    str_replace_all(fixed("Web & mobile development: Design and development of responsive, secure, and user-centric applications across web and mobile platforms"), "Web & mobile development") |> 
+    str_replace_all(fixed("Software engineering methodologies & tools: Application of structured approaches, theory and supporting tools to plan, develop, test, and maintain high-quality software systems efficiently"), "Software engineering methodologies & tools") |> 
+    str_replace_all(fixed("Software/computer science concepts & theory: Foundational knowledge of computational principles and algorithms that inform software design, development and performance"), "Software/computer science concepts & theory") |> 
+    str_replace_all(fixed("User Interface/User Experience (UI/UX) design: Creating intuitive, inclusive, and engaging digital experiences through thoughtful design and user-centered practices"), "User Interface/User Experience (UI/UX) design") |> 
+    # ICT Infrastructure
+    str_replace_all(fixed("HPC infrastructure: Knowledge of high-performance computing systems and practices that support intensive computational research and large-scale simulations"), "HPC infrastructure") |> 
+    str_replace_all(fixed("Web infrastructure: Design, deployment, and maintenance of the technologies that support robust, scalable, and secure online platforms and services"), "Web infrastructure") |> 
+    str_replace_all(fixed("Cloud infrastructure: Expertise in leveraging cloud platforms to enable flexible, scalable, and cost-effective computing, storage, and data services"), "Cloud infrastructure") |> 
+    str_replace_all(fixed("General systems infrastructure: Broad understanding of digital infrastructure - including hardware, networks, and system integration that supports everyday operations and research"), "General systems infrastructure") |> 
+    # Professional skills
+    str_replace_all(fixed("Personal skills: Self-management capabilities such as initiative, adaptability, resilience, time management, and a commitment to continuous learning."), "Personal skills") |> 
+    str_replace_all(fixed("Interprersonal skills: Ability to build rapport, demonstrate empathy, navigate social dynamics, and communicate effectively in diverse professional settings"), "Interpersonal skills") |> 
+    str_replace_all(fixed("Teamwork and collaboration: Working constructively and inclusively with others to achieve shared goals, contribute to group problem-solving, and foster a positive team culture"), "Teamwork and collaboration") |> 
+    # Leadership & management
+    str_replace_all(fixed("People & team management: Guiding and supporting individuals and teams to achieve their potential, with attention to wellbeing, performance, and professional growth"), "People & team management") |> 
+    str_replace_all(fixed("Leadership: Setting direction, inspiring others, and making strategic decisions that align people and projects with broader institutional or organisational goals"), "Leadership") |> 
+    str_replace_all(fixed("Project management: Planning, coordinating, and delivering projects effectively within defined scope, time, and resource constraints, while managing risk and quality"), "Project management") |> 
+    # Domain expertise & Research
+    str_replace_all(fixed("Domain knowledge: Deep understanding of the concepts, challenges, and methodologies specific to a particular scientific field"), "Domain knowledge") |> 
+    str_replace_all(fixed("Research skills: Conducting rigorous inquiry, including problem formulation, experimental design, critical analysis, and dissemination of findings"), "Research skills") |> 
+    # Communication
+    str_replace_all(fixed("Verbal & written communication: Articulating complex ideas clearly and effectively through a range of formats and for varied audiences"), "Verbal & written communication") |> 
+    str_replace_all(fixed("Community & outreach: Engaging with wider communities through knowledge sharing, collaboration, and public engagement to increase the visibility and impact of work"), "Community & outreach") |> 
+    str_replace_all(fixed("Training: Designing and delivering effective learning experiences that build skills, transfer knowledge, and support capacity and capability development across audiences"), "Training")
+  ) 
+```
+
+```{r ggplot_theming}
+theme_set(theme_minimal())
+theme_update(
+  plot.title = element_text(face = "bold"),
+  # plot.subtitle = ggtext::element_markdown(),
+  legend.position = "top",
+  legend.direction = "horizontal",
+  legend.box = "horizontal"
+)
+
+
+theme_update(
+  # Customize title appearence
+  plot.title = element_text(
+    color = "grey10", 
+    size = 16, 
+    face = "bold",
+    margin = margin(t = 15)
+  ),
+)
+
+# Set default discrete color scale
+options(ggplot2.discrete.colour = brewer.pal(8, "Set2"))
+options(ggplot2.discrete.fill   = brewer.pal(8, "Set2"))
+```
+
+# Results About professionals involved in teaching
+
+## Professional categories distributions
+
+What are the DRTPs professions involved in teaching?
+
+```{r}
+df_responses |> 
+  count(job_category, job_title, name = "count") |> 
+  mutate(percentage = scales::percent(count / sum(count), accuracy = 0.1)) |> 
+  ggplot(aes(area = count, fill = job_category, label = paste0(job_title,"\n (", percentage, ")" ), subgroup = job_category )) +
+  geom_treemap(layout = "squarified", colour = "white") +
+  geom_treemap_subgroup_border(colour = "white", size = 2) +
+  geom_treemap_subgroup_text(place = "centre", grow = TRUE,
+                             alpha = 0.25, colour = "white",
+                             fontface = "italic") +
+  geom_treemap_text(place = "centre",size = 12) +
+  labs(title = "Responses by job titles and categories") +
+  guides(fill = "none")
+```
+
+##  Pedagogical backgrounds { .smaller}
+
+
+```{r}
+#| layout-ncol: 2
+#| layout: [[60], [40]]
+df_responses |>
+  filter(!is.na(pedagogy_training)) |> 
+  mutate(pedagogy_training = pedagogy_training |>
+           str_replace_all(fixed("Yes, I have received significant training on teaching or pedagogy (e.g. Degree, PGCert, etc.)"), "Significant pedagogy training") |>
+           str_replace_all(fixed("Yes, I have received some training on teaching or pedagogy (e.g. dedicated course)"), "Some pedagogy training") |>
+           str_replace_all(fixed("Yes, I have received training on how to teach technical skills (e.g. carpentries)"), "Technical teaching training") |>
+           str_replace_all(fixed("No, I have not received any training on teaching or pedagogy"), "No training for trainers")
+  ) |> 
+  separate_longer_delim(pedagogy_training, delim = ",") |> 
+  mutate(pedagogy_training = fct_infreq(as.factor(pedagogy_training))) |> 
+  ggplot(aes(y = fct_rev(pedagogy_training), fill = job_category)) +
+  geom_bar() +
+  labs(
+    title = "Training for trainers received",
+    y = NULL,
+    fill = NULL
+  )
+
+
+df_responses |> 
+  filter(!is.na(degree_max)) |> 
+  ggplot(aes(y = degree_max)) + 
+  geom_bar() +
+  labs(
+    title = "Maximum degree earned",
+    y = NULL
+  )
+```
+- dRTPs have received extensive HE training 
+
+- dRTPs are largely trained to be technical trainers (carpentries), but
+  - Significant amount of them have not received any training in pedagogy or training Digital Research Competencies
+  - Only a fraction have significant training on pedagogy (pgCERT, FHEA).
+
+- **dRTPs are experts in their domains and Digital Research Competencies, but not necessarily on teaching/pedagogy**
+
+
+
+##  Stances in relation to tech and pedagogy
+
+
+```{r}
+#| fig-height: 8
+df_responses |> 
+  select(starts_with("statements_")) |> 
+  pivot_longer(cols = everything()) |> 
+  filter(!is.na(value)) |> 
+  count(name, value) |> 
+  mutate(
+    value = fct_relevel(
+      as.factor(value), 
+      "Strongly agree",
+      "Somewhat agree",
+      "Neither agree nor disagree",
+      "Somewhat disagree"
+    ),
+    value_num = as.numeric(value),
+    name = str_remove(name, "statements_"),
+    name = str_replace_all(name, "_", " "),
+    name = fct_reorder(name, value_num * n, .fun = sum)
+  ) |> 
+  ggplot(aes(x = value, y = n)) + 
+  geom_col() + 
+  facet_wrap(~name, ncol = 1) +
+  labs(
+    x = NULL
+  )
+```
+
+# Results About trainings  {.smaller}
+
+
+## What's being taught
+
+```{r}
+df_trainings |> 
+  select(training_drc_taught__selected_choice) |> 
+  filter(!is.na(training_drc_taught__selected_choice)) |> 
+  mutate(training_drc_taught__selected_choice = training_drc_taught__selected_choice |>
+           str_replace_all(fixed("a technology, programming language or software"), "a technology; programming language or software") |>
+           str_replace_all(fixed("a platform or service (Azure, ChatGTP, AWS, ...)"), "a platform or service (Azure; ChatGTP; AWS; ...)")
+  ) |> 
+  separate_longer_delim(training_drc_taught__selected_choice, delim = ",") |> 
+  mutate(
+    training_drc_taught__selected_choice = str_replace_all(training_drc_taught__selected_choice, ";", ","),
+    training_drc_taught__selected_choice = fct_infreq(as.factor(training_drc_taught__selected_choice))
+  ) |> 
+  ggplot(aes(y = fct_rev(training_drc_taught__selected_choice))) + 
+  geom_bar() +
+  labs(
+    title = "Type of Digital Research Competency being taught",
+    y = NULL
+  )
+```
+
+## {data-menu="DIRECT Framework Competencies"}
+
+According to DIRECT Framework
+
+```{r}
+df_trainings |> 
+  filter(!is.na(training_direct_framework_mapping)) |> 
+  separate_longer_delim(training_direct_framework_mapping, delim = ",") |> 
+  mutate(
+    training_direct_framework_mapping = fct_infreq(as.factor(training_direct_framework_mapping)),
+    training_direct_framework_category = case_when(
+      str_detect(training_direct_framework_mapping, "Data Science|Data Management") ~ "Information and data technologies",
+      str_detect(training_direct_framework_mapping, "Web|Software engineering meth|Software/computer science|UI/UX") ~ "Software engineering and development ",      
+      str_detect(training_direct_framework_mapping, "infrastructure") ~ "ICT Infrastructures",
+      str_detect(training_direct_framework_mapping, "Personal skills|Interpersonal|Teamwork") ~ "Professional skills",
+      str_detect(training_direct_framework_mapping, "Leadership|management") ~ "Leadership & management",
+      str_detect(training_direct_framework_mapping, "Domain|Research skills") ~ "Domain expertise & research",
+      str_detect(training_direct_framework_mapping, "communication|Community|Training") ~ "Communication"
+    ),
+    training_direct_framework_category = as.factor(training_direct_framework_category)
+  ) |> 
+  count(training_direct_framework_category, training_direct_framework_mapping, name = "count") |> 
+  mutate(percentage = scales::percent(count / sum(count), accuracy = 0.1)) |> 
+  ggplot(aes(area = count, fill = training_direct_framework_category, label = paste0(training_direct_framework_mapping,"\n (", percentage, ")" ), subgroup = training_direct_framework_category)) +
+  geom_treemap(layout = "squarified", colour = "white") +
+  geom_treemap_subgroup_border(colour = "white", size = 2) +
+  geom_treemap_subgroup_text(place = "centre", grow = TRUE,
+                             alpha = 0.25, colour = "white",
+                             fontface = "italic") +
+  geom_treemap_text(place = "centre",size = 12) +
+  labs(
+    title = "DIRECT Competencies and categories",
+    fill = NULL
+  ) 
+```
+
+
+```{r}
+#| eval: false
+df_trainings |> 
+  filter(!is.na(training_direct_framework_mapping)) |> 
+  separate_longer_delim(training_direct_framework_mapping, delim = ",") |> 
+  mutate(
+    training_direct_framework_mapping = fct_infreq(as.factor(training_direct_framework_mapping)),
+    training_direct_framework_category = case_when(
+      str_detect(training_direct_framework_mapping, "Data Science|Data Management") ~ "Information and data technologies",
+      str_detect(training_direct_framework_mapping, "Web|Software engineering meth|Software/computer science|UI/UX") ~ "Software engineering and development ",      
+      str_detect(training_direct_framework_mapping, "infrastructure") ~ "ICT Infrastructures",
+      str_detect(training_direct_framework_mapping, "Personal skills|Interpersonal|Teamwork") ~ "Professional skills",
+      str_detect(training_direct_framework_mapping, "Leadership|management") ~ "Leadership & management",
+      str_detect(training_direct_framework_mapping, "Domain|Research skills") ~ "Domain expertise & research",
+      str_detect(training_direct_framework_mapping, "communication|Community|Training") ~ "Communication"
+    )) |> 
+  ggplot(aes(y = fct_rev(training_direct_framework_mapping), fill = training_direct_framework_category)) +
+  geom_bar() +
+  labs(
+    y = NULL,
+    fill = NULL
+  )
+```
+
+
+## Audience
+
+```{r}
+
+df_trainings |> 
+  select(training_audience) |> 
+  separate_longer_delim(training_audience, delim = ",") |> 
+  mutate(training_audience = fct_infreq(as.factor(training_audience))) |> 
+  ggplot(aes(y = fct_rev(training_audience))) +
+  geom_bar() + 
+  labs(
+    title = "Audience",
+    y = NULL
+  )
+
+
+```
+
+## How's being taught?
+
+Maybe because of lack of pedagogical training... (consider creating a narrative in the slides)
+
+```{r}
+df_trainings |> 
+  mutate(
+    training_type = str_remove(training_type, "\\(e\\.g.*?\\)"),
+    # training_type = str_replace_all(training_type, "\\(e\\.g.", "\n\\(e\\.g.")
+  ) |> 
+  separate_longer_delim(training_type, delim = ",") |> 
+  mutate(training_type = fct_infreq(as.factor(training_type))) |> 
+  ggplot(aes(y = fct_rev(training_type), fill = training_delivery)) +
+  geom_bar() + 
+  labs(
+    title = "Training type and delivery mode",
+    y = NULL,
+    fill = NULL
+  )
+```
+
+::: {.callout-note appearance="simple"}
+- Part of a degree curricula (either UG or PG), separating between core or optional modules.
+
+- Formal (e.g. compulsory training for a job such as accessing HPC services).
+
+- Informal: any course or workshop not fiting in any previous category.
+:::
+
+
+
+##  How are DRTPs involved in the teaching?
+
+
+```{r}
+tmp <- df_responses |> 
+  select(response_id, job_category)
+
+df_trainings |> 
+  left_join(tmp, join_by("response_id")) |> 
+  select(training_role, job_category) |> 
+  mutate(
+    training_role = str_remove_all(training_role, "\\(i\\.e.*?\\)")
+  ) |> 
+  separate_longer_delim(training_role, delim = ",") |> 
+  mutate(training_role = fct_rev(fct_infreq(training_role))) |> 
+  ggplot(aes(y = training_role, fill = job_category)) +
+  geom_bar() + 
+  labs(
+    title = "Role played in trainings",
+    y = NULL,
+    fill = NULL
+  )
+```
+
+---
+
+```{r}
+tmp <- df_responses |> 
+  select(response_id, job_category)
+
+df_trainings |> 
+  left_join(tmp, join_by("response_id")) |> 
+  filter(!is.na(training_role)) |> 
+  select(training_role, training_type, job_category) |> 
+  mutate(
+    training_type = str_remove(training_type, "\\(e\\.g.*?\\)"),
+    # training_type = str_replace_all(training_type, "\\(e\\.g.", "\n\\(e\\.g.")
+  ) |> 
+  separate_longer_delim(training_type, delim = ",") |> 
+  mutate(training_type = fct_infreq(as.factor(training_type))) |> 
+  mutate(
+    training_role = str_remove_all(training_role, "\\(i\\.e.*?\\)")
+  ) |> 
+  separate_longer_delim(training_role, delim = ",") |> 
+  mutate(training_role = fct_rev(fct_infreq(training_role))) |> 
+  ggplot(aes(y = training_role, fill = job_category)) +
+  geom_bar() + 
+  facet_wrap(~training_type) +
+  labs(
+    title = "Role played in trainings (by training type)",
+    y = NULL,
+    fill = NULL
+  )
+
+```
+
+* dRTPs lead on informal training
+* dRTPs are less involved in degree's curricula, and when they are, they tend to have a supporting role
+
+------------------------------------------------------------------------
+
+
+```{r}
+df_trainings |> 
+  select(starts_with("training_tasks__")) |> 
+  pivot_longer(cols = everything()) |> 
+  mutate(
+    name = str_remove(name, "training_tasks__"),
+    name = str_replace_all(name, "_", " "),
+    name = fct_reorder(as.factor(name), value)
+  ) |> 
+  ggplot(aes(y = name, x = value)) +
+  geom_boxplot(fill = "darkgrey") +
+  geom_jitter(alpha = 0.4) +
+  labs(
+    title = "Time spent per task",
+    y = NULL,
+    x = "%"
+  )
+
+```
+
+
+## Infrastructure used
+
+
+```{r}
+df_trainings |> 
+  separate_longer_delim(training_requirements, delim = ",") |> 
+  mutate(training_requirements = fct_rev(fct_infreq(as.factor(training_requirements)))) |> 
+  ggplot(aes(y = training_requirements) ) +
+  geom_bar() +
+  labs(
+    title = "Infrastructure requirements",
+    y = NULL
+  )
+```
+## AI
+
+Probably leave this out
+
+```{r}
+
+```
+
+
+------------------------------------------------------------------------
+
+:::: columns
+::: {.column width="70%"}
+**People**
+
+- How are they involved in the teaching?
+
+**Training and pedagogies**
+
+- What is being taught?
+
+- What [formats]{.highlight-text} and [delivery mode]{.highlight-text} are used?
+
+- What are the [key factors]{.highlight-text} influencing how the training is delivered?
+
+- Infrastructure needed
+
+- Challenges
+:::
+::::
+
+# What next?
+
+Open repository using FAIR principles, containing:
+
+- datasets
+- reports
+
+Inform decision-making processes about designing and delivering training
+
+# We need your help! {background-color="#F1977F"}
+
+- Fill in (and share) the survey (we need more responses!)
+
+- Volunteer for interviews
+
+- Reach out to us!
+
+::: notes
+:::
+
+# Thanks! {background-color="#A499F4"}
+
+## References
