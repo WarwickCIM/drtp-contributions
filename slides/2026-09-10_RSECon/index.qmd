@@ -3,6 +3,7 @@ title: "Lessons from Mapping and evaluating dRTP’s contributions to computing 
 subtitle: "Preliminary results"
 format: revealjs
 logo: /media/warwick-logo.svg
+footer: "https://tinyurl.com/DRTP-training"
 author: 
   - name: "Carlos Cámara-Menoyo | Timothy Monteath"
     affiliation: Centre for Interdisciplinary Methodologies (University of Warwick)
@@ -10,9 +11,10 @@ institute: "RSECon 2026 | Sheffield, 10th September 2026"
 theme: [default, ../../styles/warwick-slides.scss, ../../styles/warwick-fonts.scss]
 title-slide-attributes:
   data-background-image: media/RSE-25-0064.jpg
-  data-background-color: "#A499F4"
+  # data-background-color: "#A499F4"
+  data-background-color: "#5B0039"
   # data-background-size: contain
-  data-background-opacity: "0.3"
+  data-background-opacity: "0.2"
 bibliography: references.bib
 ---
 
@@ -24,7 +26,7 @@ bibliography: references.bib
 
 Dr. **Carlos Cámara-Menoyo** (PI)
 
-*Principal Research Software Engineer*, Centre for Interdisciplinary Methodologies (University of Warwick), [SSI Fellow](https://software.ac.uk/)
+*Principal Research Software Engineer*, Centre for Interdisciplinary Methodologies (University of Warwick), [Institute for Research Software Fellow](https://software.ac.uk/)
 
 [carlos.camara\@warwick.ac.uk](mailto:carlos.camara@warwick.ac.uk){.email}
 
@@ -168,17 +170,11 @@ EXPLAIN WHERE THE SURVEY WAS DISTRIBUTED TO
 :::
 :::::
 
-:::: fragment
-::: {.callout-warning appearance="simple"}
-## Warning
-
-At the time of writing, we have received 41 responses, covering 34 trainings. We need more responses!
-:::
-::::
-
 ## Systematic analysis + Interviews {.center}
 
-# Results
+Overview here
+
+# Preliminary Results
 
 ```{r setup}
 library(dplyr)
@@ -329,7 +325,9 @@ options(ggplot2.discrete.colour = brewer.pal(8, "Set2"))
 options(ggplot2.discrete.fill   = brewer.pal(8, "Set2"))
 ```
 
-# Results About professionals involved in teaching
+# Survey (I)
+
+About professionals involved in teaching
 
 ## Professional categories distributions
 
@@ -350,8 +348,7 @@ df_responses |>
   guides(fill = "none")
 ```
 
-##  Pedagogical backgrounds { .smaller}
-
+## Pedagogical backgrounds {.smaller}
 
 ```{r}
 #| layout-ncol: 2
@@ -384,18 +381,17 @@ df_responses |>
     y = NULL
   )
 ```
-- dRTPs have received extensive HE training 
+
+- dRTPs have received extensive HE training
 
 - dRTPs are largely trained to be technical trainers (carpentries), but
+
   - Significant amount of them have not received any training in pedagogy or training Digital Research Competencies
   - Only a fraction have significant training on pedagogy (pgCERT, FHEA).
 
 - **dRTPs are experts in their domains and Digital Research Competencies, but not necessarily on teaching/pedagogy**
 
-
-
-##  Stances in relation to tech and pedagogy
-
+## Stances in relation to tech and pedagogy
 
 ```{r}
 #| fig-height: 8
@@ -425,8 +421,9 @@ df_responses |>
   )
 ```
 
-# Results About trainings  {.smaller}
+# Survey (II) {.smaller}
 
+About trainings
 
 ## What's being taught
 
@@ -451,7 +448,7 @@ df_trainings |>
   )
 ```
 
-## {data-menu="DIRECT Framework Competencies"}
+##  {data-menu="DIRECT Framework Competencies"}
 
 According to DIRECT Framework
 
@@ -487,7 +484,6 @@ df_trainings |>
   ) 
 ```
 
-
 ```{r}
 #| eval: false
 df_trainings |> 
@@ -511,7 +507,6 @@ df_trainings |>
     fill = NULL
   )
 ```
-
 
 ## Audience
 
@@ -560,10 +555,7 @@ df_trainings |>
 - Informal: any course or workshop not fiting in any previous category.
 :::
 
-
-
-##  How are DRTPs involved in the teaching?
-
+## How are DRTPs involved in the teaching?
 
 ```{r}
 tmp <- df_responses |> 
@@ -586,7 +578,7 @@ df_trainings |>
   )
 ```
 
----
+------------------------------------------------------------------------
 
 ```{r}
 tmp <- df_responses |> 
@@ -618,11 +610,10 @@ df_trainings |>
 
 ```
 
-* dRTPs lead on informal training
-* dRTPs are less involved in degree's curricula, and when they are, they tend to have a supporting role
+- dRTPs lead on informal training
+- dRTPs are less involved in degree's curricula, and when they are, they tend to have a supporting role
 
 ------------------------------------------------------------------------
-
 
 ```{r}
 df_trainings |> 
@@ -644,9 +635,7 @@ df_trainings |>
 
 ```
 
-
 ## Infrastructure used
-
 
 ```{r}
 df_trainings |> 
@@ -659,6 +648,7 @@ df_trainings |>
     y = NULL
   )
 ```
+
 ## AI
 
 Probably leave this out
@@ -667,28 +657,23 @@ Probably leave this out
 
 ```
 
+## But... {.center data-menu="But..." background-color="#F1977F"}
 
-------------------------------------------------------------------------
+[Only 39 valid responses and 44 trainings.]{.r-fit-text} [Results are not representative]{.r-fit-text}
 
-:::: columns
-::: {.column width="70%"}
-**People**
+[**We need your help!**]{.r-fit-text}
 
-- How are they involved in the teaching?
+## Fill in (and share) the survey
 
-**Training and pedagogies**
+It won't take more than 10' and would mean a lot to us.
 
-- What is being taught?
+![](media/qualtrics-qrcode.png){alt="Link to the survey: https://tinyurl.com/DRTP-training-survey" fig-align="center" width="200"}
 
-- What [formats]{.highlight-text} and [delivery mode]{.highlight-text} are used?
+Link to the survey:
 
-- What are the [key factors]{.highlight-text} influencing how the training is delivered?
+[<https://tinyurl.com/DRTP-training-survey>]{.r-fit-text}
 
-- Infrastructure needed
-
-- Challenges
-:::
-::::
+# Systematic audit results
 
 # What next?
 
