@@ -675,6 +675,10 @@ Link to the survey:
 
 # Systematic audit results
 
+## Intentionally blank slide
+
+To fill with some results
+
 # What next?
 
 Open repository using FAIR principles, containing:
