@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://your-website-url.example.com/index.html</loc>
-    <lastmod>2026-06-29T13:40:03.790Z</lastmod>
-  </url>
-  <url>
-    <loc>https://your-website-url.example.com/slides/2026-06-29_STEP_UP/index.html</loc>
-    <lastmod>2026-06-29T13:40:03.803Z</lastmod>
-  </url>
-  <url>
     <loc>https://your-website-url.example.com/posts/2026-06-RSESoc/index.html</loc>
-    <lastmod>2026-06-29T13:40:03.802Z</lastmod>
-  </url>
-  <url>
-    <loc>https://your-website-url.example.com/posts/2026-06-29_STEP_UP/index.html</loc>
-    <lastmod>2026-06-29T13:40:03.802Z</lastmod>
+    <lastmod>2026-09-07T07:33:00.339Z</lastmod>
   </url>
   <url>
     <loc>https://your-website-url.example.com/about.html</loc>
-    <lastmod>2026-06-29T13:40:03.790Z</lastmod>
+    <lastmod>2026-09-07T07:33:00.328Z</lastmod>
+  </url>
+  <url>
+    <loc>https://your-website-url.example.com/slides/2026-09-10_RSECon/index.html</loc>
+    <lastmod>2026-09-07T07:33:00.341Z</lastmod>
+  </url>
+  <url>
+    <loc>https://your-website-url.example.com/index.html</loc>
+    <lastmod>2026-09-07T07:33:00.328Z</lastmod>
+  </url>
+  <url>
+    <loc>https://your-website-url.example.com/slides/2026-06-29_STEP_UP/index.html</loc>
+    <lastmod>2026-09-07T07:33:00.340Z</lastmod>
+  </url>
+  <url>
+    <loc>https://your-website-url.example.com/posts/2026-06-29_STEP_UP/index.html</loc>
+    <lastmod>2026-09-07T07:33:00.339Z</lastmod>
   </url>
 </urlset>
