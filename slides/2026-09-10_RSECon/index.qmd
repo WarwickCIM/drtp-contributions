@@ -713,6 +713,8 @@ To fill with some results
 
 # What next?
 
+Aim for more responses to the survey + deeper analyses (combining questions)
+
 Open repository using FAIR principles, containing:
 
 - datasets
