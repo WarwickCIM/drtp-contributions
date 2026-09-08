@@ -5,7 +5,7 @@ format: revealjs
 logo: /media/warwick-logo.svg
 footer: "https://tinyurl.com/DRTP-training"
 author: 
-  - name: "Carlos Cámara-Menoyo | Timothy Monteath"
+  - name: "Carlos Cámara-Menoyo | Timothy Monteath | Lilly Horvath-Makkos"
     affiliation: Centre for Interdisciplinary Methodologies (University of Warwick)
 institute: "RSECon 2026 | Sheffield, 10th September 2026"
 theme: [default, ../../styles/warwick-slides.scss, ../../styles/warwick-fonts.scss]
@@ -51,7 +51,7 @@ Dr.**Timothy Monteath** (Co-I)
 :::::
 
 ::: notes
-Hello, my name is Carlos Cámara, and I'll be presenting the work done with my colleague Tim Monteath. We both work at the Centre for Interdisciplinary Methodologies at the University of Warwick, me as a Principal RSE and Tim as an Assistant Professor.
+Hello, my name is Carlos Cámara, and I'll be presenting the work done with my colleague Tim Monteath. We both work at the Centre for Interdisciplinary Methodologies at the University of Warwick, me as a Principal RSE and Tim as an Assistant Professor and Lilly Horvath Makkos who has been working with us as a Research Assistant.
 :::
 
 # The challenge: training DRCs {.smaller .center}
@@ -172,7 +172,39 @@ EXPLAIN WHERE THE SURVEY WAS DISTRIBUTED TO
 
 ## Systematic analysis + Interviews {.center}
 
-Overview here
+- Computationally map dRTP's across UK HE via web-scraping
+
+- Capture dRTP role descriptions and involvement in training/teaching
+
+- Data to supplement qualitative research;
+
+    - Designed to provide a broad overview of sector wide trends
+
+    - However, not comprehensive! Many dRTP's and their involvement in teach/training not on university webpages/publicly available
+
+## Systematic analysis methods {.centre}
+
+- First attempt; use CommonCrawl as an archive of university webpages
+
+    - Roadblock, CommonCrawl was nowhere near comprehensive enough for this task!
+
+- Currently running;
+
+    - Custom web scraper (*politely*) works through all webpages (branching of homepage) of each UK university
+
+    - Raw HTML is filtered for any potentially relevant content
+
+    - Cleaned HTML passed to LLM and transformed into structured data
+
+## Next steps {.centre}
+
+- Clean and parse systematic analysis results
+
+- Estimate accuracy of results by comparing them against human classified data (University of Warwick)
+
+- Publish aggregate data on github for others to use
+
+- Interviews to follow up on findings from survey and systematic analysis
 
 # Preliminary Results
 
