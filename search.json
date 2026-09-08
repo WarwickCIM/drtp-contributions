@@ -28,11 +28,18 @@
     "text": "Survey\n\n\nPeople\n\nWho are involved? What are their job titles?\nHow are they involved in the teaching?\nDo they have any pedagogical background?\nWhat are their beliefs in relation to tech and pedagogy? (e.g. stance as a teacher, importance of opensource, AI, licences…)\n\nTraining and pedagogies\n\nWhat is being taught?\nWhat formats and delivery mode are used?\nWhat are the key factors influencing how the training is delivered?\nInfrastructure needed\nChallenges\n\n\n\n\n\nLink to the survey: https://tinyurl.com/DRTP-training-survey\n\n\nEXPLAIN WHERE THE SURVEY WAS DISTRIBUTED TO"
   },
   {
-    "objectID": "slides/2026-09-10_RSECon/index.html#systematic-analysis-interviews",
-    "href": "slides/2026-09-10_RSECon/index.html#systematic-analysis-interviews",
+    "objectID": "slides/2026-09-10_RSECon/index.html#systematic-analysis",
+    "href": "slides/2026-09-10_RSECon/index.html#systematic-analysis",
     "title": "Lessons from Mapping and evaluating dRTP’s contributions to computing skills and pedagogies in HE",
-    "section": "Systematic analysis + Interviews",
-    "text": "Systematic analysis + Interviews\nOverview here"
+    "section": "Systematic analysis",
+    "text": "Systematic analysis\n\nComputationally map every dRTP’s across UK HE via web-scraping\nCapture dRTP role descriptions and involvement in training/teaching\nData to supplement qualitative research;\n\nDesigned to provide a broad overview of sector wide trends\nHowever, not comprehensive! Many dRTP’s and their involvement in teach/training not on university webpages/publicly available"
+  },
+  {
+    "objectID": "slides/2026-09-10_RSECon/index.html#systematic-analysis-methods",
+    "href": "slides/2026-09-10_RSECon/index.html#systematic-analysis-methods",
+    "title": "Lessons from Mapping and evaluating dRTP’s contributions to computing skills and pedagogies in HE",
+    "section": "Systematic analysis methods",
+    "text": "Systematic analysis methods\n\nFirst attempt; use CommonCrawl1 as an archive of university webpages\n\nRoadblock, CommonCrawl was nowhere near comprehensive enough for this task!\n\nCurrently running;\n\nCustom web scraper (politely2) works through all webpages (branching of homepage) of each UK university\nRaw HTML is filtered for any potentially relevant content\nCleaned HTML passed to LLM and transformed into structured data\n\n\n\nCommon Crawl maintains a free, open repository of web crawl data that can be used by anyone.\n\nCommon Crawl maintains a free, open repository of web crawl data that can be used by anyone, consisting of over 300 billion pages spanning 19 years.Polite’s pillars: seeking permission, taking slowly and never asking twice."
   },
   {
     "objectID": "slides/2026-09-10_RSECon/index.html#professional-categories-distributions",
@@ -98,13 +105,6 @@
     "text": "Infrastructure used"
   },
   {
-    "objectID": "slides/2026-09-10_RSECon/index.html#ai",
-    "href": "slides/2026-09-10_RSECon/index.html#ai",
-    "title": "Lessons from Mapping and evaluating dRTP’s contributions to computing skills and pedagogies in HE",
-    "section": "AI",
-    "text": "AI\nProbably leave this out"
-  },
-  {
     "objectID": "slides/2026-09-10_RSECon/index.html#but",
     "href": "slides/2026-09-10_RSECon/index.html#but",
     "title": "Lessons from Mapping and evaluating dRTP’s contributions to computing skills and pedagogies in HE",
@@ -117,13 +117,6 @@
     "title": "Lessons from Mapping and evaluating dRTP’s contributions to computing skills and pedagogies in HE",
     "section": "Fill in (and share) the survey",
     "text": "Fill in (and share) the survey\nIt won’t take more than 10’ and would mean a lot to us.\n\nLink to the survey:\nhttps://tinyurl.com/DRTP-training-survey"
-  },
-  {
-    "objectID": "slides/2026-09-10_RSECon/index.html#intentionally-blank-slide",
-    "href": "slides/2026-09-10_RSECon/index.html#intentionally-blank-slide",
-    "title": "Lessons from Mapping and evaluating dRTP’s contributions to computing skills and pedagogies in HE",
-    "section": "Intentionally blank slide",
-    "text": "Intentionally blank slide\nTo fill with some results"
   },
   {
     "objectID": "slides/2026-09-10_RSECon/index.html#references",

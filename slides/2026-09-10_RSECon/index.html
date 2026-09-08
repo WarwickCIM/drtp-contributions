@@ -11,7 +11,7 @@
 <link href="../../site_libs/quarto-contrib/fontawesome6-6.7.2/latex-fontsize.css" rel="stylesheet"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.10.18">
 
-  <meta name="author" content="Carlos Cámara-Menoyo | Timothy Monteath">
+  <meta name="author" content="Carlos Cámara-Menoyo | Timothy Monteath | Lilly Horvath-Makkos">
   <title>dRTP’s contributions to computing skills pedagogies – Lessons from Mapping and evaluating dRTP’s contributions to computing skills and pedagogies in HE</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -160,7 +160,7 @@
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-Carlos Cámara-Menoyo | Timothy Monteath
+Carlos Cámara-Menoyo | Timothy Monteath | Lilly Horvath-Makkos
 </div>
         <p class="quarto-title-affiliation">
             Centre for Interdisciplinary Methodologies (University of Warwick)
@@ -199,7 +199,7 @@ Carlos Cámara-Menoyo | Timothy Monteath
 <p><i class="fa-brands fa-bluesky" aria-label="bluesky"></i> <a href="https://bsky.app/profile/twm.bsky.social">@twm.bsky.social</a></p>
 </div></div>
 <aside class="notes">
-<p>Hello, my name is Carlos Cámara, and I’ll be presenting the work done with my colleague Tim Monteath. We both work at the Centre for Interdisciplinary Methodologies at the University of Warwick, me as a Principal RSE and Tim as an Assistant Professor.</p>
+<p>Hello, my name is Carlos Cámara, and I’ll be presenting the work done with my colleague Tim Monteath. We both work at the Centre for Interdisciplinary Methodologies at the University of Warwick, me as a Principal RSE and Tim as an Assistant Professor and Lilly Horvath Makkos who has been working with us as a Research Assistant.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -285,10 +285,10 @@ Carlos Cámara-Menoyo | Timothy Monteath
 
 <section id="our-research" class="title-slide slide level1 smaller center" data-background-color="#DAD6CA">
 <h1>Our research</h1>
-<p><strong><em>“Mapping and evaluating dRTP’s contributions to computing skills and pedagogies in Higher Education”</em></strong> <strong>is a project funded by the UKRI’s <a href="https://discourse-network.github.io/">DisCouRSE Network+</a> and <span class="highlight-text">aims to map and analyse the provision of digital researchcompetencies (DRC)</span> which are led by or involve dRTP’s across Higher Education institutions in the UK.</strong></p>
+<p><strong><em>“Mapping and evaluating dRTP’s contributions to computing skills and pedagogies in Higher Education”</em></strong> <strong>is a project funded by the UKRI’s <a href="https://discourse-network.github.io/">DisCouRSE Network+</a> and <span class="highlight-text">aims to map and analyse the provision of digital research</span> <span class="highlight-text">competencies (DRC)</span> which are led by or involve dRTP’s across Higher Education institutions in the UK.</strong></p>
 <div class="columns smaller">
 <div class="column" style="width:70%;">
-<p>The research acknowledges and complements existing competency frameworks like DIRECT but <span class="highlight-text">examines the material conditions of training delivery</span> instead of learning needs.</p>
+<p>The research acknowledges and complements existing competency frameworks like DIRECT but <span class="highlight-text">examines the role played by the professionals and the material</span> <span class="highlight-text">conditions of training delivery</span> instead of learning needs.</p>
 <p><strong>Research questions include:</strong></p>
 <ul>
 <li><p>How are dRTPs engaging in the teaching of Digital Research Competencies?</p></li>
@@ -300,7 +300,7 @@ Carlos Cámara-Menoyo | Timothy Monteath
 <p><img data-src="../../media/DisCouRSE-Logo-Light.svg" width="400"> <span class="caption">This work was supported by the <a href="https://discourse-network.github.io/">DisCouRSE Network+</a>, which received funding through the UKRI Digital Research Infrastructure Programme</span></p>
 </div></div>
 <aside class="notes">
-<p>The research acknowledges and complements existing competency frameworks like DIRECT but examines the material conditions of training delivery instead on learning needs.</p>
+<p>The research acknowledges and complements existing competency frameworks like DIRECT but examines the role played by the professionals and the material conditions of training delivery instead on learning needs.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -315,7 +315,7 @@ Carlos Cámara-Menoyo | Timothy Monteath
 </section>
 
 <section>
-<section id="methodology" class="title-slide slide level1 center">
+<section id="methodology" class="title-slide slide level1 center" data-background-color="#A499F4">
 <h1>Methodology</h1>
 
 </section>
@@ -348,11 +348,47 @@ Carlos Cámara-Menoyo | Timothy Monteath
 <p>EXPLAIN WHERE THE SURVEY WAS DISTRIBUTED TO</p>
 </div></div>
 </section>
-<section id="systematic-analysis-interviews" class="slide level2 center">
-<h2>Systematic analysis + Interviews</h2>
-<p>Overview here</p>
-</section></section>
-<section id="preliminary-results" class="title-slide slide level1 center">
+<section id="systematic-analysis" class="slide level2 center">
+<h2>Systematic analysis</h2>
+<ul>
+<li><p>Computationally <span class="highlight-text">map every dRTP’s across UK HE</span> via web-scraping</p></li>
+<li><p>Capture dRTP role descriptions and involvement in training/teaching</p></li>
+<li><p>Data to supplement qualitative research;</p>
+<ul>
+<li><p>Designed to provide a broad overview of sector wide trends</p></li>
+<li><p>However, not comprehensive! Many dRTP’s and their involvement in teach/training not on university webpages/publicly available</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="systematic-analysis-methods" class="slide level2 centre">
+<h2>Systematic analysis methods</h2>
+<ul>
+<li><p>First attempt; use <a href="https://commoncrawl.or">CommonCrawl</a><sup>1</sup> as an archive of university webpages</p>
+<ul>
+<li>Roadblock, CommonCrawl was nowhere near comprehensive enough for this task!</li>
+</ul></li>
+<li><p>Currently running;</p>
+<ul>
+<li><p>Custom web scraper (<em>politely</em><sup>2</sup>) works through all webpages (branching of homepage) of each UK university</p></li>
+<li><p>Raw HTML is filtered for any potentially relevant content</p></li>
+<li><p>Cleaned HTML passed to LLM and transformed into structured data</p></li>
+</ul></li>
+</ul>
+<aside class="notes">
+<p>Common Crawl maintains a free, open repository of web crawl data that can be used by anyone.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><ol class="aside-footnotes"><li id="fn1"><p>Common Crawl maintains a free, open repository of web crawl data that can be used by anyone, consisting of <strong>over 300 billion pages spanning 19 years</strong>.</p></li><li id="fn2"><p>Polite’s pillars: seeking permission, taking slowly and never asking twice.</p></li></ol></aside></section></section>
+<section id="preliminary-results" class="title-slide slide level1 center" data-background-color="#A499F4">
 <h1>Preliminary Results</h1>
 
 </section>
@@ -450,10 +486,6 @@ Carlos Cámara-Menoyo | Timothy Monteath
 <h2>Infrastructure used</h2>
 
 <img data-src="index_files/figure-revealjs/unnamed-chunk-12-1.png" width="960" class="r-stretch"></section>
-<section id="ai" class="slide level2">
-<h2>AI</h2>
-<p>Probably leave this out</p>
-</section>
 <section id="but" class="slide level2 center" data-menu="But..." data-background-color="#F1977F">
 <h2>But…</h2>
 <p><span class="r-fit-text">Only 39 valid responses and 44 trainings.</span> <span class="r-fit-text">Results are not representative</span></p>
@@ -466,51 +498,40 @@ Carlos Cámara-Menoyo | Timothy Monteath
 <img data-src="media/qualtrics-qrcode.png" class="quarto-figure quarto-figure-center r-stretch" alt="Link to the survey: https://tinyurl.com/DRTP-training-survey" width="200"><p>Link to the survey:</p>
 <p><span class="r-fit-text"><a href="https://tinyurl.com/DRTP-training-survey" class="uri">https://tinyurl.com/DRTP-training-survey</a></span></p>
 </section></section>
-<section>
 <section id="systematic-audit-results" class="title-slide slide level1 center">
 <h1>Systematic audit results</h1>
-
+<ul>
+<li><p>Pilot at all University of Warwick’s website:</p>
+<ul>
+<li><p>Dataset:</p>
+<ul>
+<li><p>135 Professionals scrapped</p></li>
+<li><p>fields: <code>name</code>, <code>job title</code>, <code>activities</code> (including trainings), <code>projects</code>, <code>funding sources</code></p></li>
+</ul></li>
+<li><p>Currently evaluating</p>
+<ul>
+<li><p>Clean and parse systematic analysis results</p></li>
+<li><p>Estimate accuracy of results by comparing them against human classified data (University of Warwick)</p></li>
+</ul></li>
+</ul></li>
+<li><p>List of every HE and Research organisations in the UK’s URLs for scraping.</p></li>
+</ul>
 </section>
-<section id="intentionally-blank-slide" class="slide level2">
-<h2>Intentionally blank slide</h2>
-<p>To fill with some results</p>
-</section></section>
-<section id="what-next" class="title-slide slide level1 center">
-<h1>What next?</h1>
+
+<section id="next-steps" class="title-slide slide level1 center">
+<h1>Next Steps</h1>
+<p>Aim for more responses to the survey + deeper analyses (combining questions)</p>
 <p>Open repository using FAIR principles, containing:</p>
 <ul>
-<li>datasets</li>
-<li>reports</li>
+<li>datasets (survey and systematic mapping)</li>
+<li>report to Inform decision-making processes about designing and delivering training</li>
 </ul>
-<p>Inform decision-making processes about designing and delivering training</p>
-</section>
-
-<section id="we-need-your-help" class="title-slide slide level1 center" data-background-color="#F1977F">
-<h1>We need your help!</h1>
-<ul>
-<li><p>Fill in (and share) the survey (we need more responses!)</p></li>
-<li><p>Volunteer for interviews</p></li>
-<li><p>Reach out to us!</p></li>
-</ul>
-<aside class="notes">
-
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
 </section>
 
 <section>
 <section id="thanks" class="title-slide slide level1 center" data-background-color="#A499F4">
 <h1>Thanks!</h1>
-
+<p>(and please, fill in the survey!)</p>
 </section>
 <section id="references" class="slide level2 smaller scrollable">
 <h2>References</h2>
@@ -528,6 +549,7 @@ Nenadic, Aleksandra, Phil Reed, Dave Horsfall, et al. 2026. <em>DIRECT Competenc
 </div>
 </div>
 </section></section>
+
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <p><img src="../../media/warwick-logo.svg" class="slide-logo"></p>
