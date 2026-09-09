@@ -139,7 +139,7 @@ The research acknowledges and complements existing competency frameworks like DI
 ## Survey {.smaller}
 
 ::::: columns
-::: {.column width="70%"}
+::: {.column width="60%"}
 **People**
 
 - Who are involved? What are their job titles?
@@ -163,10 +163,19 @@ The research acknowledges and complements existing competency frameworks like DI
 - Challenges
 :::
 
-::: {.column width="30%"}
+::: {.column width="40%"}
+
+**Distribution**
+
+
+* Society of Research Software Engineering
+* Institute for Research Software
+* STEP UP
+* Cake
+* CHARTED
+
 ![Link to the survey: <https://tinyurl.com/DRTP-training-survey>](media/qualtrics-qrcode.png)
 
-EXPLAIN WHERE THE SURVEY WAS DISTRIBUTED TO
 :::
 :::::
 
