@@ -50,6 +50,9 @@ Dr.**Timothy Monteath** (Co-I)
 :::
 :::::
 
+**Lilly Horvath-Makkos**
+Research Assistant
+
 ::: notes
 Hello, my name is Carlos Cámara, and I'll be presenting the work done with my colleague Tim Monteath. We both work at the Centre for Interdisciplinary Methodologies at the University of Warwick, me as a Principal RSE and Tim as an Assistant Professor and Lilly Horvath Makkos who has been working with us as a Research Assistant.
 :::
@@ -70,7 +73,7 @@ We are seeing a **computational turn in research**, as seen in a
 
 - the advent of AI (adding a new level of complexity).
 
-This **requires a broad set of skills -[Digital Research Competencies(DRC)]{.highlight-text}-** that need to be [learnt]{.highlight-text} and [taught]{.highlight-text}.
+This **requires a broad set of skills -[Digital Research Competencies]{.highlight-text} (DRC)]-** that need to be [learnt]{.highlight-text} and [taught]{.highlight-text}.
 :::
 
 ::: {.column width="40%"}
@@ -83,7 +86,7 @@ Research is becoming increasingly computational, as seen in
 
 This requires a broad set skills -Digital Research Competencies- that need to be learnt and taught.
 
-DIRECT framework acknowledges the importance and diversity of training and Digital Research Competencies, but it does not explain some of the questions that we were having...
+DIRECT framework acknowledges the importance and diversity of training Digital Research Competencies, but it does not explain some of the questions that we were having...
 :::
 
 # So we wondered...
