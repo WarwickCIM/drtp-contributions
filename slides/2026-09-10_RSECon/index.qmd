@@ -570,7 +570,7 @@ df_trainings |>
 
 ## How's being taught?
 
-Maybe because of lack of pedagogical training... (consider creating a narrative in the slides)
+<!--Maybe because of lack of pedagogical training... (consider creating a narrative in the slides)-->
 
 ```{r}
 df_trainings |> 
